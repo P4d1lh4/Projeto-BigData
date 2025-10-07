@@ -1,28 +1,38 @@
-# 📊 Dados do Projeto
+# Arquitetura de Dados - Camadas Bronze, Silver e Gold
 
-Esta pasta contém os datasets utilizados no projeto de Big Data.
+Este diretório armazena os dados utilizados no pipeline do projeto, seguindo a metodologia da **Arquitetura Medalhão** (*Medallion Architecture*). Essa abordagem organiza os dados em três camadas de qualidade crescente: Bronze, Silver e Gold.
 
-## Arquivos
+## Camada Bronze (`/bronze`)
 
-- `movies_metadata.csv` - Metadados de filmes (45k+ registros)
-- `credits.csv` - Informações de elenco e equipe (45k+ registros)
+- **Propósito:** Armazenar os dados em seu estado **bruto**, exatamente como foram ingeridos das fontes originais.
+- **Características:**
+  - Dados não tratados, não limpos e não validados.
+  - Serve como um *data lake* inicial e um backup histórico dos dados originais.
+  - Formato: CSV.
+- **Arquivos:**
+  - `movies_raw.csv`: Dados brutos de metadados dos filmes.
+  - `credits_raw.csv`: Dados brutos de créditos (elenco e equipe).
 
-## ⚠️ Importante
+## Camada Silver (`/silver`)
 
-Estes arquivos são muito grandes para o GitHub (>100MB). Para executar o projeto:
+- **Propósito:** Conter dados que passaram por um processo de **limpeza, normalização e validação**.
+- **Características:**
+  - Remoção de duplicatas, tratamento de valores nulos, correção de tipos de dados.
+  - Os dados estão mais confiáveis e prontos para serem enriquecidos.
+  - Formato: CSV.
+- **Arquivos:**
+  - `movies_cleaned.csv`: Dados de filmes após a limpeza inicial.
+  - `credits_processed.csv`: Dados de créditos após o processamento inicial.
 
-1. **Baixe os arquivos** do repositório original do TMDb
-2. **Coloque-os nesta pasta** (`dados/`)
-3. **Execute o notebook** normalmente
+## Camada Gold (`/gold`)
 
-## 🔗 Fonte dos Dados
+- **Propósito:** Disponibilizar dados **altamente refinados, agregados e prontos para análise** e consumo por aplicações de negócio ou visualização.
+- **Características:**
+  - Dados integrados de múltiplas fontes (merge de filmes e créditos).
+  - Criação de novas colunas de valor (features), como ROI, lucro e categorias.
+  - Otimizados para performance de leitura e análise.
+  - Formato: CSV e Parquet.
+- **Arquivos:**
+  - `filmes_analise.csv`: Dataset final pronto para análise, em formato CSV.
+  - `filmes_analise.parquet`: Mesmo dataset em formato Parquet, otimizado para performance e armazenamento.
 
-- **The Movie Database (TMDb)**: https://www.themoviedb.org/
-- **Dataset**: https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
-
-## 📝 Como obter os dados
-
-1. Acesse o link do Kaggle
-2. Faça download dos arquivos `movies_metadata.csv` e `credits.csv`
-3. Coloque-os na pasta `dados/`
-4. Execute o notebook `codigo/pipeline_big_data_filmes.ipynb`

@@ -91,18 +91,25 @@ O projeto implementa todas as 5 etapas obrigatórias de um pipeline de Big Data:
 ```
 BigData/
 ├── README.md
-├── credits.csv
-├── movies_metadata.csv
+├── requirements.txt
+├── .gitignore
 ├── dados/
-│   ├── bronze/          # Dados brutos
-│   ├── silver/          # Dados limpos
-│   └── gold/            # Dados para análise
+│   ├── movies_metadata.csv      # Dataset 1 (não versionado - baixar separadamente)
+│   ├── credits.csv              # Dataset 2 (não versionado - baixar separadamente)
+│   ├── README.md                # Instruções para obter os dados
+│   ├── bronze/                  # Camada Bronze (criada automaticamente)
+│   ├── silver/                  # Camada Silver (criada automaticamente)
+│   └── gold/                    # Camada Gold (criada automaticamente)
 ├── codigo/
 │   └── pipeline_big_data_filmes.ipynb
 └── documentacao/
     ├── arquitetura.md
-    └── checklist_av1.md
+    ├── checklist_av1.md
+    ├── guia_rapido.md
+    └── roteiro_apresentacao.md
 ```
+
+**Nota**: As pastas `bronze/`, `silver/` e `gold/` são criadas automaticamente quando você executa o notebook. Elas implementam a **Arquitetura Medalhão** para organização dos dados em camadas de qualidade progressiva.
 
 ## 🚀 Como Executar
 
