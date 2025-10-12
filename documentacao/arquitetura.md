@@ -15,6 +15,7 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 ## 2. Arquitetura do Pipeline
 
 ### 2.1 Diagrama do Pipeline
+<img width="2274" height="638" alt="image" src="https://github.com/user-attachments/assets/9d36e527-9e0c-433f-bbd1-66109442ac7b" />
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
