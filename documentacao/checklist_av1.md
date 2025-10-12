@@ -83,42 +83,7 @@
 
 ---
 
-### 3. Demonstração Técnica (em aula) ⏳
-
-**Status**: ⏳ PREPARADO PARA APRESENTAÇÃO  
-**Tempo**: 8 minutos  
-**Data**: 13/10/2025
-
-#### Conteúdo da Apresentação:
-
-- [x] **Funcionamento da ingestão**
-  - Demonstração do carregamento dos CSVs
-  - Prints dos DataFrames carregados
-  - Validação inicial dos dados
-
-- [x] **Funcionamento da transformação**
-  - Demonstração de limpeza de dados
-  - Criação de features (ROI, categorias)
-  - Processamento de JSON
-  - Integração de datasets
-
-- [x] **Outputs e notebooks preparados**
-  - Notebook completamente executado
-  - Gráficos e visualizações prontos
-  - Insights documentados
-
-#### Roteiro de Apresentação (8min):
-
-| Tempo | Tópico | Responsável |
-|-------|--------|-------------|
-| 0-1min | Introdução e problema de negócio | [Membro 1] |
-| 1-3min | Demonstração de ingestão e transformação | [Membro 2] |
-| 3-6min | Visualizações e insights | [Membro 3] |
-| 6-8min | Arquitetura e próximos passos | [Todos] |
-
----
-
-### 4. Checklist Preenchido ✅
+### 3. Checklist Preenchido ✅
 
 **Status**: ✅ COMPLETO
 
@@ -147,20 +112,7 @@
   - Processamento de JSON (gêneros, elenco, diretor)
   - Integração de datasets (merge)
   - Criação de colunas derivadas
-
----
-
-## 📊 Métricas de Conclusão
-
-| Critério | Meta | Realizado | Status |
-|----------|------|-----------|--------|
-| Etapas do Pipeline | 5 | 5 | ✅ |
-| Documentos | 3 | 3 | ✅ |
-| Notebook Funcional | 1 | 1 | ✅ |
-| Visualizações | 3+ | 4 | ✅ |
-| Commits no GitHub | 5+ | [Verificar] | ⏳ |
-| Estrutura de Pastas | Completa | Completa | ✅ |
-
+    
 ---
 
 ## Entregáveis Finais
@@ -209,8 +161,6 @@
 - [ ] Deploy em cloud
 
 ---
-
-**Status Geral da AV1**: ✅ **PRONTO PARA ENTREGA**
 
 **Última Atualização**: Outubro 2025
 
