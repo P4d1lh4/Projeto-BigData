@@ -39,7 +39,7 @@
 ### 2. Repositório GitHub ✅
 
 **Status**: ✅ COMPLETO  
-**URL**: `[INSERIR URL DO REPOSITÓRIO]`
+**URL**: (https://github.com/P4d1lh4/Projeto-BigData.git)
 
 #### Estrutura Organizada:
 
@@ -172,7 +172,7 @@
    - Localização: `documentacao/arquitetura.md`
 
 2. ✅ **Repositório GitHub**
-   - URL: `[INSERIR LINK]`
+   - URL: (https://github.com/P4d1lh4/Projeto-BigData.git)
    - Acesso: Público
 
 3. ✅ **Notebook Jupyter**
@@ -207,18 +207,6 @@
 - [ ] Machine Learning para predição
 - [ ] Dashboard interativo
 - [ ] Deploy em cloud
-
----
-
-## ✍️ Assinaturas da Equipe
-
-**Declaramos que todo o trabalho foi desenvolvido pela equipe de forma colaborativa e que todos os membros contribuíram ativamente para o projeto.**
-
-- [ ] [Nome Membro 1] - Matrícula: ______
-- [ ] [Nome Membro 2] - Matrícula: ______
-- [ ] [Nome Membro 3] - Matrícula: ______
-
-**Data**: ___/___/2025
 
 ---
 
