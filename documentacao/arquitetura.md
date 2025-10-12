@@ -1,4 +1,4 @@
-# 🏗️ Documento de Arquitetura - Pipeline de Big Data
+# Documento de Arquitetura - Pipeline de Big Data
 
 ## Projeto: Análise de Produção Cinematográfica
 
