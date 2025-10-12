@@ -1,6 +1,6 @@
-# 🎬 Pipeline de Big Data: Análise de Produção Cinematográfica
+# Pipeline de Big Data: Análise de Produção Cinematográfica
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto implementa um pipeline completo de Big Data para análise da indústria cinematográfica, abrangendo desde a coleta de dados até a geração de insights visuais. O objetivo é identificar padrões de produção, receita e popularidade de filmes, auxiliando produtoras e investidores em decisões estratégicas.
 
@@ -8,13 +8,13 @@ Este projeto implementa um pipeline completo de Big Data para análise da indús
 **Instituição**: CESAR School
 **Período**: 2025.2
 
-## 👥 Equipe
+## Equipe
 
 - Arthur Padilha
 - Eduarda Souza
 - Victor Melo
 
-## 🎯 Problema de Negócio
+## Problema de Negócio
 
 **Desafio**: Compreender quais fatores influenciam o sucesso comercial e crítico dos filmes na indústria cinematográfica.
 
@@ -24,7 +24,7 @@ Este projeto implementa um pipeline completo de Big Data para análise da indús
 - Tendências temporais de produção
 - Fatores de sucesso na indústria
 
-## 📊 Fontes de Dados
+## Fontes de Dados
 
 ### 1. movies_metadata.csv
 - **Descrição**: Metadados detalhados sobre filmes
@@ -38,27 +38,27 @@ Este projeto implementa um pipeline completo de Big Data para análise da indús
 - **Tipo**: Dados semi-estruturados (JSON dentro de CSV)
 - **Campos principais**: cast (elenco), crew (equipe técnica), id do filme
 
-## 🏗️ Arquitetura do Pipeline
+## Arquitetura do Pipeline
 
 O projeto implementa todas as 5 etapas obrigatórias de um pipeline de Big Data:
 
-### 1️⃣ Fontes de Dados (Data Sources)
+### 1️- Fontes de Dados (Data Sources)
 - Dois datasets CSV com dados da indústria cinematográfica
 - Dados estruturados e semi-estruturados
 
-### 2️⃣ Ingestão (Ingestion)
+### 2️- Ingestão (Ingestion)
 - **Método**: Batch (lotes)
 - **Ferramenta**: Pandas (`read_csv`)
 - **Volume**: ~45.000 filmes e créditos
 
-### 3️⃣ Transformação (Transformation)
+### 3️- Transformação (Transformation)
 - Limpeza de dados (remoção de nulos, tratamento de inconsistências)
 - Normalização de campos numéricos e datas
 - Enriquecimento (criação de colunas derivadas: ROI, lucro, categorias)
 - Processamento de dados JSON (extração de gêneros, elenco, diretores)
 - Integração de datasets (merge por ID)
 
-### 4️⃣ Carregamento (Loading)
+### 4️- Carregamento (Loading)
 - **Arquitetura Medalhão**:
   - **Bronze**: Dados brutos (CSV original)
   - **Silver**: Dados limpos e normalizados
@@ -66,7 +66,7 @@ O projeto implementa todas as 5 etapas obrigatórias de um pipeline de Big Data:
 - **Formatos**: CSV e Parquet
 - **Localização**: `/dados/bronze`, `/dados/silver`, `/dados/gold`
 
-### 5️⃣ Destino (Destination)
+### 5️- Destino (Destination)
 - Visualizações interativas (Matplotlib, Seaborn)
 - Dashboard analítico no Jupyter Notebook
 - Insights de negócio para tomada de decisão
@@ -86,7 +86,7 @@ O projeto implementa todas as 5 etapas obrigatórias de um pipeline de Big Data:
 - Jupyter Notebook
 - Git/GitHub
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 
 ```
 BigData/
@@ -111,7 +111,7 @@ BigData/
 
 **Nota**: As pastas `bronze/`, `silver/` e `gold/` são criadas automaticamente quando você executa o notebook. Elas implementam a **Arquitetura Medalhão** para organização dos dados em camadas de qualidade progressiva.
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 ```bash
@@ -132,31 +132,31 @@ jupyter notebook codigo/pipeline_big_data_filmes.ipynb
 
 3. Execute todas as células sequencialmente (Cell > Run All)
 
-## 📈 Principais Insights
+## Principais Insights
 
-### 🎭 Gêneros Mais Lucrativos
+### Gêneros Mais Lucrativos
 - Identificação dos top 10 gêneros por receita total
 - Análise de rentabilidade por categoria
 
-### 📅 Evolução Temporal
+### Evolução Temporal
 - Crescimento da produção cinematográfica entre 1980-2020
 - Identificação de picos de produção
 
-### 💰 ROI (Return on Investment)
+### ROI (Return on Investment)
 - Relação entre orçamento e receita
 - Identificação de filmes com melhor retorno sobre investimento
 - Análise de break-even point
 
-### 💼 Distribuição de Orçamento
+### Distribuição de Orçamento
 - Categorização de filmes por faixa de investimento
 - Análise percentual de distribuição
 
-## 📚 Documentação Adicional
+## Documentação Adicional
 
 - **Arquitetura Detalhada**: Ver `documentacao/arquitetura.md`
 - **Checklist AV1**: Ver `documentacao/checklist_av1.md`
 
-## 🔄 Próximos Passos (Roadmap)
+## Próximos Passos (Roadmap)
 
 - [ ] Implementar processamento de streaming (simulação)
 - [ ] Adicionar mais fontes de dados (APIs do TMDb, Twitter)
@@ -164,15 +164,6 @@ jupyter notebook codigo/pipeline_big_data_filmes.ipynb
 - [ ] Criar dashboard interativo com Plotly/Dash
 - [ ] Deploy em cloud (AWS/GCP/Azure)
 
-## 📝 Licença
-
-Este projeto é desenvolvido para fins acadêmicos.
-
-## 📧 Contato
-
-Para dúvidas ou sugestões, entre em contato com a equipe através do repositório GitHub.
-
----
 
 **Última atualização**: Outubro 2025
 
