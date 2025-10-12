@@ -1,10 +1,10 @@
-# 🚀 Guia Rápido de Uso
+# Guia Rápido de Uso
 
 ## Projeto: Pipeline de Big Data - Análise de Produção Cinematográfica
 
 ---
 
-## ⚡ Início Rápido (5 minutos)
+## Início Rápido (5 minutos)
 
 ### 1. Instalar Dependências
 
@@ -32,7 +32,7 @@ Os dados processados estarão em:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 BigData/
@@ -58,7 +58,7 @@ BigData/
 
 ---
 
-## 🎯 Pipeline de Dados (5 Etapas)
+## Pipeline de Dados (5 Etapas)
 
 ### Etapa 1: Fontes de Dados
 - **Arquivos**: `movies_metadata.csv`, `credits.csv`
@@ -105,7 +105,7 @@ credits_raw = pd.read_csv('../credits.csv')
 
 ---
 
-## 🛠️ Comandos Úteis
+## Comandos Úteis
 
 ### Instalar uma biblioteca específica
 ```bash
@@ -129,7 +129,7 @@ jupyter nbconvert --to html codigo/pipeline_big_data_filmes.ipynb
 
 ---
 
-## 🐛 Resolução de Problemas
+## Resolução de Problemas
 
 ### Problema: "ModuleNotFoundError: No module named 'pandas'"
 **Solução**:
@@ -170,7 +170,7 @@ movies = pd.read_csv('../movies_metadata.csv',
 
 ---
 
-## 🔗 Links Úteis
+## Links Úteis
 
 - **Documentação Pandas**: https://pandas.pydata.org/docs/
 - **Matplotlib Gallery**: https://matplotlib.org/stable/gallery/
@@ -179,7 +179,7 @@ movies = pd.read_csv('../movies_metadata.csv',
 
 ---
 
-## 📧 Suporte
+## Suporte
 
 Para dúvidas ou problemas, consulte:
 1. `documentacao/arquitetura.md` - Detalhes técnicos
