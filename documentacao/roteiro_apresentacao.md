@@ -7,10 +7,7 @@
 
 ---
 
-## 📋 Estrutura da Apresentação
-
-### ⏱️ Tempo 0:00 - 1:00 | Introdução (1 min)
-**Responsável**:
+## Estrutura da Apresentação
 
 **Pontos a Abordar**:
 1. **Apresentação da Equipe** (15s)
@@ -30,9 +27,6 @@
 **Slide/Visual**: Título do projeto + diagrama simplificado do pipeline
 
 ---
-
-### ⏱️ Tempo 1:00 - 3:00 | Ingestão e Transformação (2 min)
-**Responsável**:
 
 #### Parte 1: Ingestão (40s)
 **Demonstração**:
@@ -79,9 +73,6 @@ display(movies[['title', 'genero_principal']].head())
 
 ---
 
-### ⏱️ Tempo 3:00 - 6:00 | Visualizações e Insights (3 min)
-**Responsável**:
-
 #### Visualização 1: Receita por Gênero (1 min)
 **Demonstração**:
 ```python
@@ -126,10 +117,7 @@ display(top_roi)
 
 ---
 
-### ⏱️ Tempo 6:00 - 8:00 | Arquitetura e Conclusão (2 min)
-**Responsável**: [Todos] (revezamento)
-
-#### Arquitetura (1 min) - [Membro 1]
+#### Arquitetura (1 min) 
 **Demonstração**:
 ```python
 # Mostrar estrutura de pastas
@@ -147,13 +135,13 @@ os.listdir('dados/')
 
 **Slide/Visual**: Diagrama da arquitetura medalhão
 
-#### Tecnologias (30s) - [Membro 2]
+#### Tecnologias (30s) 
 **Falar**:
 - "Stack: Python, Pandas, Matplotlib, Seaborn"
 - "Justificativa: Facilidade de aprendizado, adequado para 45k registros"
 - "Futuro: Spark para escalabilidade, Airflow para orquestração"
 
-#### Pipeline Completo (30s) - [Membro 3]
+#### Pipeline Completo (30s) 
 **Checklist Visual**:
 - ✅ Fontes de Dados
 - ✅ Ingestão
@@ -170,73 +158,5 @@ os.listdir('dados/')
 
 ---
 
-## 🎯 Mensagens-Chave (Repetir)
-
-Durante a apresentação, enfatizar:
-
-1. **Pipeline Completo**: "5 etapas implementadas de forma completa"
-2. **Insights Reais**: "Dados transformados em decisões estratégicas"
-3. **Arquitetura Profissional**: "Padrões da indústria (medalhão, formatos múltiplos)"
-4. **Escalável**: "Pronto para evoluir com o projeto"
-
----
-
-## 📊 Checklist Pré-Apresentação
-
-### 30 minutos antes:
-- [ ] Notebook completamente executado
-- [ ] Todos os gráficos renderizados
-- [ ] Sem erros em nenhuma célula
-- [ ] Laptop conectado ao projetor
-- [ ] Testar resolução da tela
-
-### 10 minutos antes:
-- [ ] Abrir notebook na primeira célula
-- [ ] Ter GitHub aberto em outra aba (para mostrar estrutura)
-- [ ] Ter diagrama de arquitetura pronto
-- [ ] Cronômetro configurado (8 min)
-
-### Durante:
-- [ ] Falar claramente e sem pressa
-- [ ] Apontar para os gráficos ao explicar
-- [ ] Manter contato visual com a turma
-- [ ] Respeitar o tempo de cada membro
-
----
-
-## ❓ Possíveis Perguntas e Respostas
-
-### P: "Por que não usaram Spark?"
-**R**: "Para 45k registros, Pandas é suficiente e mais didático. Para volumes > 1M, migraríamos para Spark com processamento distribuído."
-
-### P: "Como trataram dados duplicados?"
-**R**: "Validamos IDs únicos. Encontramos alguns duplicados que foram removidos na camada Silver."
-
-### P: "O pipeline é escalável?"
-**R**: "Sim! A arquitetura medalhão e o uso de Parquet facilitam migração para Spark/Databricks. Já documentamos o roadmap de escalabilidade."
-
-### P: "Como fariam para dados em tempo real?"
-**R**: "Adicionaríamos Kafka para ingestão streaming e processaríamos em micro-batches. Já planejamos essa evolução para a AV2."
-
-### P: "Qual foi o maior desafio?"
-**R**: "Processar campos JSON dentro do CSV (gêneros, elenco). Resolvemos com funções customizadas de extração."
-
----
-
-## 🎬 Dicas de Apresentação
-
-### O que FAZER:
-✅ Falar com entusiasmo sobre o projeto  
-✅ Destacar os insights de negócio  
-✅ Mostrar código funcionando (não só slides)  
-✅ Mencionar colaboração da equipe  
-✅ Manter contato visual  
-
-### O que NÃO FAZER:
-❌ Ler o código linha por linha  
-❌ Ficar muito tempo em detalhes técnicos  
-❌ Ultrapassar o tempo de 8 minutos  
-❌ Ignorar os insights visuais  
-❌ Falar muito baixo ou rápido demais  
 
 
