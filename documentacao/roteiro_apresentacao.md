@@ -1,4 +1,4 @@
-# 🎤 Roteiro de Apresentação - AV1
+# Roteiro de Apresentação - AV1
 
 ## Projeto: Pipeline de Big Data - Análise de Produção Cinematográfica
 
