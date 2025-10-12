@@ -3,8 +3,6 @@
 ## Projeto: Pipeline de Big Data - Análise de Produção Cinematográfica
 
 **Data de Entrega**: 13/10/2025  
-**Equipe**: [Nomes dos Membros]
-
 ---
 
 ## 📋 Minientregas Obrigatórias
