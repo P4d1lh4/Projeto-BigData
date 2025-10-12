@@ -239,38 +239,4 @@ Durante a apresentação, enfatizar:
 ❌ Ignorar os insights visuais  
 ❌ Falar muito baixo ou rápido demais  
 
----
-
-## ⏰ Contingência de Tempo
-
-### Se estiver ATRASADO (-30s):
-- Pular demonstração de código detalhado
-- Focar nos gráficos e insights
-- Resumir tecnologias em 15s
-
-### Se estiver ADIANTADO (+30s):
-- Aprofundar em um insight específico
-- Mostrar dados adicionais (top 10 filmes)
-- Explicar decisões arquiteturais
-
----
-
-## 📝 Notas Finais
-
-**Lembrete para todos os membros**:
-- Respirar fundo antes de começar
-- Sorrir e demonstrar confiança
-- É um projeto acadêmico, mas tratamos com seriedade profissional
-- Estamos prontos! Fizemos um trabalho completo e de qualidade
-
-**Ensaio sugerido**: 
-- Fazer pelo menos 2 ensaios completos
-- Cronometrar cada parte
-- Gravar para identificar pontos de melhoria
-
----
-
-**Boa sorte, equipe! 🎬📊🚀**
-
-Vocês desenvolveram um pipeline completo e profissional. Apresentem com orgulho!
 
