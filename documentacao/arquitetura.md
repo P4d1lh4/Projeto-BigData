@@ -99,9 +99,9 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 
 | Membro | Responsabilidade | Tarefas |
 |--------|------------------|---------|
-| **[Membro 1]** | Ingestão + Transformação | • Carregamento de dados<br>• Limpeza e validação<br>• Processamento de JSON |
-| **[Membro 2]** | Transformação + Carregamento | • Criação de features<br>• Integração de datasets<br>• Salvamento em medalhão |
-| **[Membro 3]** | Destino + Documentação | • Visualizações<br>• Análises estatísticas<br>• README e arquitetura |
+| **Victor Melo** | Ingestão + Transformação | • Carregamento de dados<br>• Limpeza e validação<br>• Processamento de JSON |
+| **Eduarda Figueredo** | Transformação + Carregamento | • Criação de features<br>• Integração de datasets<br>• Salvamento em medalhão |
+| **Arthur Padilha** | Destino + Documentação | • Visualizações<br>• Análises estatísticas<br>• README e arquitetura |
 
 **Colaboração**: Todos os membros contribuíram com código, revisões e documentação através do Git.
 
