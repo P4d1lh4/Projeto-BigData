@@ -1,11 +1,11 @@
-# ✅ Checklist de Entrega - AV1
+# Checklist de Entrega - AV1
 
 ## Projeto: Pipeline de Big Data - Análise de Produção Cinematográfica
 
 **Data de Entrega**: 13/10/2025  
 ---
 
-## 📋 Minientregas Obrigatórias
+## Minientregas Obrigatórias
 
 ### 1. Documento de Arquitetura ✅
 
@@ -163,7 +163,7 @@
 
 ---
 
-## 🎯 Entregáveis Finais
+## Entregáveis Finais
 
 ### Arquivos para Submissão:
 
