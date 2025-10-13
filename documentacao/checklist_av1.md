@@ -7,9 +7,9 @@
 
 ## Minientregas Obrigatórias
 
-### 1. Documento de Arquitetura ✅
+### 1. Documento de Arquitetura 
 
-**Status**: ✅ COMPLETO  
+**Status**: COMPLETO  
 **Localização**: `documentacao/arquitetura.md`
 
 #### Itens Incluídos:
@@ -20,12 +20,12 @@
   - Arquitetura medalhão (Bronze/Silver/Gold)
 
 - [x] **Tecnologias utilizadas e justificativa**
-  - Stack atual: Pandas, NumPy, Matplotlib, Seaborn
+  - Stack atual: Pandas, NumPy
   - Justificativa de cada escolha tecnológica
   - Tecnologias alternativas para refinamento futuro
 
 - [x] **Arquitetura parcial implementada**
-  - Todas as 5 etapas do pipeline implementadas
+  - Etapas parciais do pipeline implementadas
   - Simulação de ambiente de produção
   - Documentação de limitações e próximos passos
 
@@ -36,9 +36,9 @@
 
 ---
 
-### 2. Repositório GitHub ✅
+### 2. Repositório GitHub 
 
-**Status**: ✅ COMPLETO  
+**Status**: COMPLETO  
 **URL**: (https://github.com/P4d1lh4/Projeto-BigData.git)
 
 #### Estrutura Organizada:
@@ -83,21 +83,21 @@
 
 ---
 
-### 3. Checklist Preenchido ✅
+### 3. Checklist Preenchido 
 
-**Status**: ✅ COMPLETO
+**Status**: COMPLETO
 
 #### Estado do Pipeline:
 
 ##### **Ingestão**
-- [x] ✅ **Finalizado**
+- [x] **Finalizado**
   - Carregamento de `movies_metadata.csv`
   - Carregamento de `credits.csv`
   - Validação inicial dos dados
   - Análise exploratória
 
 ##### **Armazenamento**
-- [x] ✅ **Finalizado**
+- [x] **Finalizado**
   - Arquitetura medalhão implementada
   - Camada Bronze (dados brutos)
   - Camada Silver (dados limpos)
@@ -105,7 +105,7 @@
   - Formatos CSV e Parquet
 
 ##### **Transformação**
-- [x] ✅ **Finalizado**
+- [x] **Finalizado**
   - Limpeza de dados (nulos, tipos)
   - Normalização de campos
   - Enriquecimento (ROI, lucro, categorias)
@@ -119,48 +119,24 @@
 
 ### Arquivos para Submissão:
 
-1. ✅ **Documento de Arquitetura**
+1. **Documento de Arquitetura**
    - Formato: Markdown (.md)
    - Localização: `documentacao/arquitetura.md`
 
-2. ✅ **Repositório GitHub**
+2. **Repositório GitHub**
    - URL: (https://github.com/P4d1lh4/Projeto-BigData.git)
    - Acesso: Público
 
-3. ✅ **Notebook Jupyter**
+3. **Notebook Jupyter**
    - Arquivo: `codigo/pipeline_big_data_filmes.ipynb`
    - Status: Executado e com outputs
 
-4. ✅ **README.md**
+4. **README.md**
    - Localização: Raiz do projeto
    - Conteúdo: Completo e atualizado
 
-5. ✅ **Checklist AV1**
+5. **Checklist AV1**
    - Arquivo: `documentacao/checklist_av1.md`
    - Status: Preenchido
 
----
-
-## 📝 Observações Adicionais
-
-### Diferenciais Implementados:
-
-- ✅ Arquitetura medalhão (padrão da indústria)
-- ✅ Dual-format: CSV + Parquet
-- ✅ Processamento de dados semi-estruturados (JSON)
-- ✅ Visualizações profissionais (4 análises diferentes)
-- ✅ Documentação completa e detalhada
-- ✅ Código bem comentado e organizado
-
-### Próximas Etapas (AV2):
-
-- [ ] Implementar simulação de streaming
-- [ ] Integração com APIs externas (TMDb API)
-- [ ] Machine Learning para predição
-- [ ] Dashboard interativo
-- [ ] Deploy em cloud
-
----
-
-**Última Atualização**: Outubro 2025
 
