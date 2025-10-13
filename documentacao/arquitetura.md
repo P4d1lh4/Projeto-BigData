@@ -56,11 +56,10 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 
 | Camada | Tecnologia | Justificativa | Status |
 |--------|------------|---------------|--------|
-| **Ingestão** | Pandas | Facilidade de uso, boa para batch | ✅ Implementado |
-| **Transformação** | Pandas + NumPy | Processamento eficiente, vetorização | ✅ Implementado |
-| **Armazenamento** | CSV + Parquet | Compatibilidade + Performance | ✅ Implementado |
-| **Visualização** | Matplotlib + Seaborn | Gráficos de alta qualidade | ✅ Implementado |
-| **Orquestração** | Manual (Jupyter) | Prototipação rápida | ✅ Implementado |
+| **Ingestão** | Pandas | Facilidade de uso, boa para batch | Implementado |
+| **Transformação** | Pandas + NumPy | Processamento eficiente, vetorização | Implementado |
+| **Armazenamento** | CSV + Parquet | Compatibilidade + Performance | Implementado |
+| **Visualização** | Matplotlib + Seaborn | Gráficos de alta qualidade | Em processo |
 
 ### 3.2 Tecnologias Alternativas (Refinamento Futuro)
 
@@ -76,21 +75,21 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 ### 3.3 Justificativa das Escolhas
 
 #### **Por que Pandas?**
-- ✅ Curva de aprendizado baixa
-- ✅ Integração nativa com NumPy e Matplotlib
-- ✅ Suficiente para datasets de até ~1M linhas
-- ⚠️ Limitação: Não distribuído (single-machine)
+- Curva de aprendizado baixa
+- Integração nativa com NumPy e Matplotlib
+- Suficiente para datasets de até ~1M linhas
+- Limitação: Não distribuído (single-machine)
 
 #### **Por que Arquitetura Medalhão?**
-- ✅ Separação clara de responsabilidades
-- ✅ Reprodutibilidade (dados brutos preservados)
-- ✅ Qualidade progressiva (Bronze → Silver → Gold)
-- ✅ Padrão da indústria (Databricks, Delta Lake)
+- Separação clara de responsabilidades
+- Reprodutibilidade (dados brutos preservados)
+- Qualidade progressiva (Bronze → Silver → Gold)
+- Padrão da indústria (Databricks, Delta Lake)
 
 #### **Por que CSV + Parquet?**
-- ✅ CSV: Legível, amplamente compatível
-- ✅ Parquet: Compressão eficiente, queries rápidas
-- ✅ Dual-format: Flexibilidade de uso
+- CSV: Legível, amplamente compatível
+- Parquet: Compressão eficiente, queries rápidas
+- Dual-format: Flexibilidade de uso
 
 ---
 
@@ -98,9 +97,10 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 
 | Membro | Responsabilidade | Tarefas |
 |--------|------------------|---------|
-| **Victor Melo** | Ingestão + Transformação | • Carregamento de dados<br>• Limpeza e validação<br>• Processamento de JSON |
+| **Arthur Padilha** | Ingestão + Transformação | • Carregamento de dados<br>• Limpeza e validação<br>• Processamento de JSON |
 | **Eduarda Figueredo** | Transformação + Carregamento | • Criação de features<br>• Integração de datasets<br>• Salvamento em medalhão |
-| **Arthur Padilha** | Destino + Documentação | • Visualizações<br>• Análises estatísticas<br>• README e arquitetura |
+| **Victor Melo** | Documentação | •README e arquitetura |
+| **Próximos passos** | Destino + Documentação | • Visualizações<br>• Análises estatísticas<br>• README e arquitetura |
 
 **Colaboração**: Todos os membros contribuíram com código, revisões e documentação através do Git.
 
@@ -108,7 +108,7 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 
 ## 5. Arquitetura Parcial Implementada (AV1)
 
-### ✅ Implementado
+### Implementado
 
 - [x] Ingestão de dados CSV
 - [x] Limpeza e normalização
@@ -117,11 +117,12 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 - [x] Integração de datasets
 - [x] Arquitetura medalhão (Bronze/Silver/Gold)
 - [x] Salvamento em CSV e Parquet
-- [x] Visualizações analíticas
 - [x] Documentação completa
 
-### ⏳ Planejado (Próximas Iterações)
+### Planejado (Próximas Iterações)
 
+- [ ] Arquitetura medalhão (Gold)
+- [ ] Visualizações analíticas
 - [ ] Simulação de streaming
 - [ ] Integração com APIs externas (TMDb API)
 - [ ] Machine Learning (predição de sucesso)
