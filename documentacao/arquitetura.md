@@ -201,56 +201,8 @@ dados_integrados.to_parquet('dados/gold/filmes_analise.parquet')
 | Duplicatas | Verificação de IDs únicos | ✅ |
 | Outliers | Análise visual | ⏳ |
 
-### 7.2 Métricas de Qualidade
-
-```
-Dataset Original: 45,476 filmes
-Após Limpeza:     ~42,000 filmes (92% retidos)
-Completude:       >95% em campos críticos
-```
-
 ---
-
-## 8. Performance e Escalabilidade
-
-### 8.1 Métricas Atuais
-
-- **Tempo de Ingestão**: ~5 segundos
-- **Tempo de Transformação**: ~15 segundos
-- **Tempo de Salvamento**: ~10 segundos
-- **Tempo Total**: ~30 segundos
-
-### 8.2 Limitações Atuais
-
-- Processamento single-thread (Pandas)
-- Limite de memória RAM (~16GB recomendado)
-- Não suporta streaming
-
-### 8.3 Plano de Escalabilidade
-
-**Para volumes > 1M linhas**:
-1. Migrar para PySpark (processamento distribuído)
-2. Usar Parquet como formato primário
-3. Implementar particionamento de dados
-4. Considerar cloud computing (AWS EMR, Databricks)
-
----
-
-## 9. Segurança e Governança
-
-### 9.1 Dados Públicos
-
-- Todos os dados são públicos (TMDb)
-- Sem informações sensíveis (LGPD/GDPR compliant)
-
-### 9.2 Versionamento
-
-- Código: Git/GitHub
-- Dados: Arquitetura medalhão preserva histórico
-
----
-
-## 10. Conclusão
+## 8. Conclusão
 
 A arquitetura implementada demonstra um pipeline de Big Data funcional e bem estruturado, adequado para o escopo acadêmico e extensível para aplicações reais. A escolha de tecnologias prioriza facilidade de aprendizado e implementação, enquanto mantém portas abertas para escalabilidade futura.
 
@@ -261,6 +213,6 @@ A arquitetura implementada demonstra um pipeline de Big Data funcional e bem est
 
 ---
 
-**Autores**: [Equipe do Projeto]  
-**Última Revisão**: Outubro 2025
+**Autores**: Arthur Padilha, Eduarda Souza, Victor Melo 
+
 
