@@ -1,4 +1,4 @@
-# Guia Rápido de Uso
+# Guia de Uso
 
 ## Projeto: Pipeline de Big Data - Análise de Produção Cinematográfica
 
