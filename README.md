@@ -165,5 +165,4 @@ jupyter notebook codigo/pipeline_big_data_filmes.ipynb
 - [ ] Deploy em cloud (AWS/GCP/Azure)
 
 
-**Última atualização**: Outubro 2025
 
