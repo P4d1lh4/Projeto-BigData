@@ -6,8 +6,6 @@
 **Versão**: 1.0  
 **Status**: Em Desenvolvimento (AV1)
 
----
-
 ## 1. Visão Geral
 
 Este documento descreve a arquitetura do pipeline de Big Data implementado para análise da indústria cinematográfica. O projeto segue as melhores práticas de engenharia de dados, incluindo a arquitetura medalhão (Bronze/Silver/Gold) e processamento em lotes (batch).
@@ -47,8 +45,6 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 - **Interface**: Jupyter Notebook
 - **Visualizações**: Gráficos interativos
 - **Análises**: Estatísticas descritivas e insights
-
----
 
 ## 3. Tecnologias Utilizadas
 
@@ -91,8 +87,6 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 - Parquet: Compressão eficiente, queries rápidas
 - Dual-format: Flexibilidade de uso
 
----
-
 ## 4. Divisão de Tarefas da Equipe
 
 | Membro | Responsabilidade | Tarefas |
@@ -103,8 +97,6 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 | **Próximos passos** | Destino + Documentação | • Visualizações<br>• Análises estatísticas<br>• README e arquitetura |
 
 **Colaboração**: Todos os membros contribuíram com código, revisões e documentação através do Git.
-
----
 
 ## 5. Arquitetura Parcial Implementada (AV1)
 
@@ -128,8 +120,6 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 - [ ] Machine Learning (predição de sucesso)
 - [ ] Dashboard interativo (Plotly/Dash)
 - [ ] Deploy em cloud
-
----
 
 ## 6. Fluxo de Dados Detalhado
 
@@ -188,8 +178,6 @@ dados_integrados.to_parquet('dados/gold/filmes_analise.parquet')
 - Silver: Dados confiáveis e limpos
 - Gold: Dados otimizados para análise
 
----
-
 ## 7. Qualidade de Dados
 
 ### 7.1 Validações Implementadas
@@ -201,7 +189,6 @@ dados_integrados.to_parquet('dados/gold/filmes_analise.parquet')
 | Duplicatas | Verificação de IDs únicos | ✅ |
 | Outliers | Análise visual | ⏳ |
 
----
 ## 8. Conclusão
 
 A arquitetura implementada demonstra um pipeline de Big Data funcional e bem estruturado, adequado para o escopo acadêmico e extensível para aplicações reais. A escolha de tecnologias prioriza facilidade de aprendizado e implementação, enquanto mantém portas abertas para escalabilidade futura.
