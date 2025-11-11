@@ -2,9 +2,9 @@
 
 ## Projeto: Análise de Produção Cinematográfica
 
-**Data**: Outubro 2025  
-**Versão**: 1.0  
-**Status**: Em Desenvolvimento (AV1)
+**Data**: Novembro 2025  
+**Versão**: 2.0  
+**Status**: Finalizado (AV2)
 
 ## 1. Visão Geral
 
@@ -55,7 +55,7 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 | **Ingestão** | Pandas | Facilidade de uso, boa para batch | Implementado |
 | **Transformação** | Pandas + NumPy | Processamento eficiente, vetorização | Implementado |
 | **Armazenamento** | CSV + Parquet | Compatibilidade + Performance | Implementado |
-| **Visualização** | Matplotlib + Seaborn | Gráficos de alta qualidade | Em processo |
+| **Visualização** | Matplotlib + Seaborn | Gráficos de alta qualidade | ✅ Implementado |
 
 ### 3.2 Tecnologias Alternativas (Refinamento Futuro)
 
@@ -111,10 +111,18 @@ Este documento descreve a arquitetura do pipeline de Big Data implementado para 
 - [x] Salvamento em CSV e Parquet
 - [x] Documentação completa
 
+### Implementado na AV2
+
+- [x] Visualizações analíticas expandidas (8 análises completas)
+- [x] Pasta /notebooks criada e organizada
+- [x] README.md robusto seguindo formato ABNT
+- [x] Diagrama de arquitetura detalhado
+- [x] Roteiro de apresentação de 20 minutos
+- [x] Seção de Resultados e Visualizações completa
+- [x] Análise crítica e conclusões detalhadas
+
 ### Planejado (Próximas Iterações)
 
-- [ ] Arquitetura medalhão (Gold)
-- [ ] Visualizações analíticas
 - [ ] Simulação de streaming
 - [ ] Integração com APIs externas (TMDb API)
 - [ ] Machine Learning (predição de sucesso)
@@ -193,10 +201,10 @@ dados_integrados.to_parquet('dados/gold/filmes_analise.parquet')
 
 A arquitetura implementada demonstra um pipeline de Big Data funcional e bem estruturado, adequado para o escopo acadêmico e extensível para aplicações reais. A escolha de tecnologias prioriza facilidade de aprendizado e implementação, enquanto mantém portas abertas para escalabilidade futura.
 
-**Próximos Marcos**:
+**Marcos Alcançados**:
 - AV1: ✅ Pipeline completo implementado
-- AV2: Adicionar ML e deploy em cloud
-- Projeto Final: Dashboard produção e apresentação
+- AV2: ✅ Visualizações expandidas, documentação ABNT, apresentação preparada
+- Futuro: Machine Learning, deploy em cloud, dashboard interativo
 
 ---
 

@@ -17,7 +17,7 @@ pip install -r requirements.txt
 # Abrir Jupyter Notebook
 jupyter notebook
 
-# Navegar até: codigo/pipeline_big_data_filmes.ipynb
+# Navegar até: notebooks/01_pipeline_completo.ipynb
 # Clicar em: Cell > Run All
 ```
 
@@ -45,13 +45,20 @@ BigData/
 │   ├── silver/                           # Camada 2: Clean data
 │   └── gold/                             # Camada 3: Analytics data
 │
-├── codigo/                               # Código-fonte
+├── codigo/                               # Código-fonte (compatibilidade)
 │   └── pipeline_big_data_filmes.ipynb   # Notebook principal
 │
+├── notebooks/                            # Notebooks Jupyter (AV2)
+│   ├── README.md                         # Documentação dos notebooks
+│   └── 01_pipeline_completo.ipynb       # Notebook principal do pipeline
+│
 └── documentacao/                         # Documentação técnica
-    ├── arquitetura.md                    # Arquitetura detalhada
-    ├── checklist_av1.md                  # Checklist de entrega
-    └── guia_rapido.md                    # Este arquivo
+    ├── arquitetura.md                    # Arquitetura detalhada (v2.0)
+    ├── checklist_av1.md                  # Checklist de entrega AV1
+    ├── checklist_av2.md                  # Checklist de entrega AV2
+    ├── guia_rapido.md                    # Este arquivo
+    ├── diagrama_pipeline_detalhado.md    # Diagramas do pipeline
+    └── roteiro_apresentacao.md           # Roteiro da apresentação
 ```
 
 ---
