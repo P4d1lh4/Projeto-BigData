@@ -56,8 +56,8 @@ BigData/
     ├── arquitetura.md                    # Arquitetura detalhada (v2.0)
     ├── checklist_av1.md                  # Checklist de entrega AV1
     ├── checklist_av2.md                  # Checklist de entrega AV2
-    ├── guia_rapido.md                    # Este arquivo
     ├── diagrama_pipeline_detalhado.md    # Diagramas do pipeline
+    ├── guia_rapido.md                    # Este arquivo
     └── roteiro_apresentacao.md           # Roteiro da apresentação
 ```
 

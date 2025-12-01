@@ -8,25 +8,7 @@
 
 ---
 
-## A. REQUISITOS OBRIGATÓRIOS DA AV2
-
-### ✅ Repositório no GitHub (Público)
-
-**Status**: ✅ Completo
-
-- [x] Repositório público no GitHub
-- [x] 3 membros da equipe como colaboradores
-- [x] Commits distribuídos entre os membros
-- [x] Histórico de desenvolvimento documentado
-- [x] `.gitignore` configurado adequadamente
-
-**Observações**: Repositório estruturado e organizado seguindo boas práticas.
-
----
-
-### ✅ README.md Robusto (Formato ABNT)
-
-**Status**: ✅ Completo
+## REQUISITOS OBRIGATÓRIOS DA AV2
 
 #### Seções Obrigatórias Implementadas:
 
@@ -141,34 +123,7 @@ dados/
 
 ---
 
-## B. APRESENTAÇÃO FINAL
-
-### ✅ Preparação da Apresentação
-
-**Status**: ✅ Completo
-
-- [x] Duração planejada: 20 minutos (18 min + 2 min perguntas)
-- [x] Roteiro detalhado criado (slide-by-slide)
-- [x] Divisão de responsabilidades entre membros
-- [x] Foco nos resultados e demonstração
-- [x] Pipeline em ação (demonstração ao vivo preparada)
-- [x] Dashboard/visualizações prontas para apresentar
-
-**Estrutura da Apresentação**:
-1. Introdução e Contexto (2 min)
-2. Problema e Motivação (2 min)
-3. Pipeline: Fontes e Ingestão (2 min)
-4. Pipeline: Transformação (3 min)
-5. Pipeline: Carregamento (Medalhão) (2 min)
-6. Demonstração ao Vivo (3 min)
-7. Resultados e Insights (4 min)
-8. Conclusões e Trabalhos Futuros (2 min)
-
-**Observações**: Roteiro completo disponível em `documentacao/roteiro_apresentacao.md`
-
----
-
-## C. REQUISITOS TÉCNICOS IMPLEMENTADOS
+## REQUISITOS TÉCNICOS IMPLEMENTADOS
 
 ### ✅ Pipeline de Big Data Completo
 
@@ -311,7 +266,7 @@ dados/
 
 ---
 
-## D. MELHORIAS IMPLEMENTADAS NA AV2
+## MELHORIAS IMPLEMENTADAS NA AV2
 
 ### ✅ Melhorias de Conteúdo
 
@@ -346,7 +301,7 @@ dados/
 
 ---
 
-## E. MÉTRICAS DO PROJETO
+## MÉTRICAS DO PROJETO
 
 ### 📊 Estatísticas do Código
 
@@ -380,91 +335,7 @@ dados/
 
 ---
 
-## F. VERIFICAÇÃO FINAL
-
-### ✅ Checklist de Entrega
-
-**Antes de Enviar:**
-
-- [x] Todos os arquivos commitados no GitHub
-- [x] README.md completo e seguindo formato ABNT
-- [x] Pasta `/notebooks` criada e organizada
-- [x] Documentação técnica atualizada
-- [x] Roteiro de apresentação pronto
-- [x] Notebook executável do início ao fim
-- [x] Visualizações funcionando corretamente
-- [x] `.gitignore` configurado (datasets grandes não versionados)
-- [x] Estrutura de diretórios organizada
-- [x] Links de referências funcionando
-
-**Para Apresentação:**
-
-- [x] Roteiro de 20 minutos preparado
-- [x] Divisão de falas definida
-- [x] Demonstração ao vivo testada
-- [x] Backup preparado (notebook executado + screenshots)
-- [x] Respostas para perguntas esperadas
-- [x] Equipamento verificado
-
----
-
-## G. STATUS FINAL
-
-### ✅ PROJETO COMPLETO E PRONTO PARA ENTREGA
-
-**Resumo Executivo**:
-
-✅ **Pipeline de Big Data**: Todas as 5 etapas implementadas e funcionais  
-✅ **Arquitetura**: Medalhão (Bronze/Silver/Gold) seguindo padrões da indústria  
-✅ **Visualizações**: 8 análises completas com insights acionáveis  
-✅ **Documentação**: Completa, profissional e seguindo formato ABNT  
-✅ **Apresentação**: Roteiro de 20 minutos preparado e testado  
-✅ **Código**: Limpo, documentado e reproduzível  
-✅ **Requisitos AV2**: 100% dos requisitos atendidos  
-
-**Pontos Fortes do Projeto**:
-
-1. 🏆 **Arquitetura moderna**: Medalhão (Bronze/Silver/Gold)
-2. 🏆 **Documentação excepcional**: >2.500 linhas de documentação
-3. 🏆 **Visualizações ricas**: 8 análises com insights profundos
-4. 🏆 **Código limpo**: Seguindo boas práticas de engenharia
-5. 🏆 **Aplicabilidade prática**: Insights acionáveis para a indústria
-
-**Diferenciais**:
-
-- ✨ README.md seguindo rigorosamente formato ABNT
-- ✨ Diagrama de arquitetura detalhado em ASCII
-- ✨ Roteiro de apresentação slide-by-slide completo
-- ✨ Análise crítica honesta de dificuldades e limitações
-- ✨ Trabalhos futuros bem planejados (curto, médio e longo prazo)
-
----
-
-## H. PRÓXIMAS ETAPAS (PÓS-AV2)
-
-### Curto Prazo (Opcional)
-
-- [ ] Executar apresentação final
-- [ ] Incorporar feedback dos professores
-- [ ] Publicar artigo sobre o projeto (blog/LinkedIn)
-
-### Médio Prazo (Extensões Futuras)
-
-- [ ] Implementar Machine Learning (predição de receita)
-- [ ] Criar dashboard interativo (Plotly Dash)
-- [ ] Migrar para processamento distribuído (Spark)
-- [ ] Deploy em cloud (AWS/Azure)
-
-### Longo Prazo (Projeto Extensão)
-
-- [ ] Pipeline em produção com atualização automática
-- [ ] Integração com múltiplas APIs (TMDb, OMDB, etc.)
-- [ ] Análise de sentimento de reviews
-- [ ] Sistema de recomendação de filmes
-
----
-
-## I. CONSIDERAÇÕES FINAIS
+## CONSIDERAÇÕES FINAIS
 
 Este projeto demonstra a implementação de um **pipeline completo de Big Data** seguindo as melhores práticas da indústria. A equipe aplicou com sucesso conceitos de:
 
@@ -483,9 +354,6 @@ Este projeto demonstra a implementação de um **pipeline completo de Big Data**
 **Disciplina**: Fundamentos de Big Data  
 **Instituição**: CESAR School  
 **Data de Conclusão**: Novembro 2025  
-**Versão**: 2.0 (AV2 - Final)
+**Versão**: 2.0 
 
 ---
-
-**🎉 PROJETO CONCLUÍDO COM SUCESSO! 🎉**
-

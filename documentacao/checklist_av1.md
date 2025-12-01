@@ -2,10 +2,14 @@
 
 ### Projeto: Pipeline de Big Data - Análise de Produção Cinematográfica
 
+**Status**: ✅ Concluído
+
 Formulário com o estado atual de cada parte do pipeline:
 
- Ingestão: ( ) Em progresso / (X) Finalizado / ( ) Pendente
+| Etapa | Status |
+|-------|--------|
+| Ingestão | ✅ Finalizado |
+| Armazenamento | ✅ Finalizado |
+| Transformação | ✅ Finalizado |
 
- Armazenamento: ( ) Em progresso / (X) Finalizado / ( ) Pendente
-
- Transformação: ( ) Em progresso / (X) Finalizado / ( ) Pendente
+---

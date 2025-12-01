@@ -795,6 +795,8 @@ BigData/
 └── documentacao/                         # Documentação técnica adicional
     ├── arquitetura.md                    # Arquitetura detalhada do sistema
     ├── checklist_av1.md                  # Checklist de entrega AV1
+    ├── checklist_av2.md                  # Checklist de entrega AV2
+    ├── diagrama_pipeline_detalhado.md    # Diagramas ASCII do pipeline
     ├── guia_rapido.md                    # Guia rápido de uso
     └── roteiro_apresentacao.md           # Roteiro da apresentação final
 ```
